@@ -1,0 +1,22 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// sass - utils
+@import "../sass/sass-utils/variables";
+@import "../sass/sass-utils/extends";
+@import "../sass/sass-utils/mixins";
+
+// pages
+@import "../sass/pages/home";
+
+// base
+@import "../sass/base/reset";
+@import "../sass/base/typography";
+
+//component
+
+// layout
+@import "../sass/layout/header";
+@import "../sass/layout/cafeteria";
+@import "../sass/layout/font";
+@import "../sass/layout/work";
+@import "../sass/layout/images";

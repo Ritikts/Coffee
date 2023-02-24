@@ -1,0 +1,90 @@
+.cafeteria {
+  .title {
+    margin-top: -13px;
+    margin-left: -7px;
+    h2 {
+      color: $color-1;
+    }
+    .ps,
+    .ai {
+      @include size(3.75rem, 3.75rem);
+      @extend %center;
+      border: 0.1875rem solid #000;
+      font-family: "Roboto", "sans-serif";
+    }
+    p {
+      font-family: "Roboto", "sans-serif";
+      color: $color-1;
+    }
+  }
+  .colors {
+    .line {
+      @include size(70%, 0.125rem);
+      background-color: #e2e2e2;
+      position: relative;
+    }
+    h2{
+      margin-left: -5px;
+    }
+  }
+  .palettes {
+    margin-top: 2.1875rem;
+    margin-left: -0.3125rem;
+    .ms-6 {
+      margin-left: $m-64;
+    }
+    .color-one {
+      .color-outer {
+        background-color: #d4e8e7;
+      }
+
+      .color {
+        background-color: #18bcbe;
+      }
+    }
+    .color-two {
+      .color-outer {
+        background-color: #dedede;
+      }
+
+      .color {
+        background-color: #000000;
+      }
+    }
+    .color-three {
+      .color-outer {
+        background-color: #e2e2e2;
+      }
+
+      .color {
+        background-color: #1c1c1c;
+      }
+    }
+    .color-four {
+      .color-outer {
+        background-color: #f8f8f8;
+      }
+
+      .color {
+        background-color: #ffffff;
+      }
+    }
+    .color-outer {
+      @include size(6.5625rem, 6.5625rem);
+      @extend %center;
+      .color {
+        @include size(4.6875rem, 4.6875rem);
+      }
+    }
+    .data {
+      margin-left: $m-10;
+    }
+    .fw-900 {
+      font-weight: $fw-900;
+    }
+  }
+  .mobile-one {
+    top: -39px;
+    left: 55px;
+  }
+}

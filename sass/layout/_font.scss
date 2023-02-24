@@ -1,0 +1,56 @@
+.font {
+  .line {
+    @include size(75%, 0.125rem);
+    background-color: #e2e2e2;
+   
+  }
+  .raleway {
+    font-family: "Raleway", "sans-serif";
+    h2 {
+      line-height: 2.375rem;
+    }
+    .thin {
+      font-weight: $fw-100;
+    }
+    .extra-light {
+      font-weight: $fw-200;
+    }
+    .light {
+      font-weight: $fw-300;
+    }
+    .regular {
+      font-weight: $fw-400;
+    }
+    .medium {
+      font-weight: $fw-500;
+    }
+    .semi-bold {
+      font-weight: $fw-600;
+    }
+    .bold {
+      font-weight: $fw-700;
+    }
+    .extra-bold {
+      font-weight: $fw-800;
+    }
+    .black {
+      font-weight: $fw-900;
+    }
+  }
+  .components {
+    .line {
+      @include size(28%, 0.125rem);
+      background-color: #e2e2e2;
+     
+    }
+    .navbar {
+      font-family: "Roboto";
+      @include size(80%, auto);
+      .menu {
+        background-color: #18bcbe;
+        @include size(auto, 4.75rem);
+        @extend %center;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+@mixin size($width, $height) {
+  width: $width;
+  height: $height;
+}
+@mixin img-pos($top, $right, $bottom, $left){
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+    z-index: -1;
+}

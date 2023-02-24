@@ -1,0 +1,61 @@
+.images {
+  .img-one {
+    @include img-pos(0, auto, auto, 0);
+  }
+
+  .img-two {
+    @include img-pos(0, 0, auto, auto);
+    z-index: -2;
+    mix-blend-mode: darken;
+  }
+
+  .img-three {
+    @include img-pos(25.5rem, auto, auto, 0);
+   
+  }
+
+  .img-four {
+    @include img-pos(37.25rem, auto, auto, 0.9375rem);
+  
+  }
+
+  .img-five {
+    @include img-pos(58.4375rem, 0, auto, auto);
+    mix-blend-mode: darken;
+  }
+
+  .img-six {
+    @include img-pos(1570px, 0, auto, auto);
+    mix-blend-mode: darken;
+  }
+
+  .img-seven {
+    @include img-pos(1186px, auto, auto, 90px);
+  }
+
+  .img-eight {
+    @include img-pos(68px, 42px, auto, auto);
+    mix-blend-mode: darken;
+   
+  }
+
+  .img-nine {
+    @include img-pos(0, 146px, auto, auto);
+    z-index: -3;
+  }
+
+  .img-ten {
+    @include img-pos(89.6875rem, auto, auto, 0);
+    z-index: -3;
+  }
+
+  .img-eleven {
+    @include img-pos(1435px, auto, auto, 315px);
+    z-index: -3;
+  }
+
+  // .img-twelve {
+  //   @include img-pos(100rem, auto, auto, 0);
+  //   mix-blend-mode: darken;
+  // }
+}

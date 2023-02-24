@@ -1,0 +1,38 @@
+.work {
+  margin-top: 100px;
+  h2 {
+    background: $gradient-1;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 110px;
+    line-height: 86px;
+  }
+  h3 {
+    font-size: 88px;
+  }
+  .mob-section {
+    .mob-img {
+      height: 750px;
+    }
+  }
+}
+.carousel-indicators {
+  bottom: -110px;
+  .left,
+  .right {
+    @include size(70px, 70px);
+    @extend %center;
+    transition: all 0.3s;
+    color: gray;
+    font-size: 1.3rem;
+  }
+  .left:hover,
+  .right:hover {
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari 3-8 */
+    transform: scale(1.3);
+    background-color: #18bcbe;
+    color: white;
+  }
+}

@@ -1,0 +1,41 @@
+.header {
+  h1 {
+    font-size: 197px;
+    margin-left: 8px;
+    margin-top: -3px;
+  }
+
+  .heart {
+    h2 {
+      font-size: $text-70;
+    }
+  }
+}
+.cafeteria {
+  .title {
+    h2 {
+      font-size: $text-45;
+    }
+    .ps,
+    .ai {
+      font-size: $text-32;
+    }
+    p {
+      font-size: $text-17;
+    }
+  }
+
+  .palettes {
+    .hex {
+      font-size: $text-22;
+    }
+  }
+}
+.font {
+  .raleway {
+    h2 {
+      font-size: 3rem;
+      line-height: 38px;
+    }
+  }
+}
